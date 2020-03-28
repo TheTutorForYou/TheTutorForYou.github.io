@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Escondido Distance Tutor</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./resources/w3.css">
+    <link rel="stylesheet" href="./resources/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="./#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="./resources/lopez.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Distance Tutor</b></h4>
+    <p class="w3-text-grey">Ezekiel Lopez</p>
+  </div>
+  <div class="w3-bar-block">
+    
+    <a href="./#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="./#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://fb.com/EscondidoBornTutor">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    </a>
+    <a href="https://www.yelp.com/biz/ezekiel-the-tutor-for-you-escondido">
+    <i class="fa fa-yelp w3-hover-opacity"></i>
+    </a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="./#"><img src="./resources/lopez.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Understanding is a <a href="./#contact">click</a> away</b></h1>
+    </div>
+  </header>
+
+  
+    <h4>&nbsp; How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Basic Studies</li>
+          <li class="w3-padding-16">Basic Literacy &amp; Writing</li>
+          <li class="w3-padding-16">Math Fundamentals % X / + -</li>
+          <li class="w3-padding-16">Homework Help</li>
+          <li class="w3-padding-16">Email Question Follow Up</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black signUpButton">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+        
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Core Science &amp; Math</li>
+          <li class="w3-padding-16">Algebra</li>
+          <li class="w3-padding-16">Biology &amp; Chemistry</li>
+          <li class="w3-padding-16">Step by step examples provided</li>
+          <li class="w3-padding-16">Post session assignment corrections</li>
+          <li class="w3-padding-16">
+            <h2>$ 35</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black signUpButton">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Advanced Subjects</li>
+          <li class="w3-padding-16">Statistics</li>
+          <li class="w3-padding-16">Calculus</li>
+          <li class="w3-padding-16">Recorded sessions for review</li>
+          <li class="w3-padding-16">Custom study sheets &amp; notes provided</li>
+          <li class="w3-padding-16">
+            <h2>$ 55</h2>
+            <span class="w3-opacity">per hour</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black signUpButton">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="./resources/meWithBro.png" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="./resources/withDad.png" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p class="aboutMeScript">
+        My name is Ezekiel Lopez. I am a studying CSIT and BioChem, with the intention of becoming a professor and participating in research on the brain. I have a passion for education, and technology. Growing up I have taken pride in watching my five younger siblings ask "Why" and overcoming the learning hill of confusion into comprension. I have worked as a tutor for San Pasqual High School, a school aid at Dot to Dot academy, and a freelance tutor throughout my own education. Now I want to further embrace my passion for technology and move my tutoring endevors online. I enjoy music, playing trombone, guitar, piano, and flute in my spare time. I look forward to getting to know you.
+      </p>
+    <hr>
+  </div>
+  <!-- First Photo Grid-->
+    <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./resources/covid19.png" alt="covid19" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>COVID-19 &amp; Social Distincing</b></p>
+        <p>Schools are sending kids home, and we have less teacher to student interaction during this pandemic. Distance tutoring is the perfect solution to enrich education while staying safe.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./resources/mobileTutor.png" alt="Online Tutoring" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Virtual Tutoring</b></p>
+        <p>Students today have an excellent understanding of technology allowing an enriched tutoring experience. Virtual notes, online resources, and video confrencing makes it easy to connect online.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./resources/escondido.png" alt="Escondido" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Personalized from your community</b></p>
+        <p>Located out of Escondido, familiar with the demands of San Diego school systems and Cal State standards, I am the perfect choice for anyone in the San Diego community.</p>
+      </div>
+    </div>
+  </div>
+    
+    <hr>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="mailto:ezekiek@thetutorforyou.com">Ezekiel@TheTutorForYou.com</a></p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Escondio, CA</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p><a href="tel:7608779741">(760) 877-9741</a></p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="https://formspree.io/xeqzwndg" method="POST" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required="">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="email" name="Email" required="">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required="">
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>9x-7i > 3(3x-7u)</h3>
+      <p>I continue to be inspired by your passion for education. It is an honor to play a role in helping you persue your academic goals.</p>
+      <p>Thank you for visiting</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Media</h3>
+      <ul class="w3-ul w3-hoverable">
+        <a href="https://fb.com/EscondidoBornTutor">
+            <li class="w3-padding-16">
+              <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Facebook</span><br>
+              <span>See my Facebook page</span>
+            </li>
+        </a>
+        <a href="https://www.yelp.com/biz/ezekiel-the-tutor-for-you-escondido">
+            <li class="w3-padding-16">
+              <img src="https://cdn.worldvectorlogo.com/logos/yelp-icon.svg" class="w3-left w3-margin-right" style="width:50px">
+              <span class="w3-large">Yelp</span><br>
+              <span>See my Yelp page</span>
+            </li> 
+        </a>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>Key Words</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Distance Tutor</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Online Tutor</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">COVID-19 Tutor</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Algebra</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Math</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">AP Tests</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Statistics</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Chemistry</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Biology</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">San Diego</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Test Corrections</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Study Guide</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Work Review</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Escondido</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Have a good day!</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body></html>
